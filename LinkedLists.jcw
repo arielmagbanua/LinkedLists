@@ -13,6 +13,9 @@
 	</users>
 	<projects>
 		<project>
+			<path>DoublyLinkedListSample\DoublyLinkedListSample.jcp</path>
+		</project>
+		<project>
 			<path>LinkedListSample\LinkedListSample.jcp</path>
 		</project>
 	</projects>

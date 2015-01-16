@@ -2,16 +2,24 @@
 
 <workspace_user>
 	<active_project>
-		<label>LinkedListSample</label>
+		<label>DoublyLinkedListSample</label>
 	</active_project>
 	<projects>
 		<project>
-			<label>LinkedListSample</label>
+			<label>DoublyLinkedListSample</label>
 			<showfiles>false</showfiles>
 			<folderitem>
-				<path>LinkedListSample\classes</path>
+				<path>DoublyLinkedListSample\classes</path>
 				<dir>classes</dir>
 			</folderitem>
+			<folderitem>
+				<path>DoublyLinkedListSample\src</path>
+				<dir>src</dir>
+			</folderitem>
+		</project>
+		<project>
+			<label>LinkedListSample</label>
+			<showfiles>false</showfiles>
 			<folderitem>
 				<path>LinkedListSample\src</path>
 				<dir>src</dir>
