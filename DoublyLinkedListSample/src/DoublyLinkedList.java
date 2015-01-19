@@ -75,7 +75,7 @@ class DoublyLinkedList {
                                    // (assumes non-empty list)
       	Node current = first;          // start at beginning
 
-      	while(current.objectData != key) {   // until match is found,
+      	while(current.mData != key) {   // until match is found,
 
          	current = current.next;     // move to next link
          	if(current == null)
@@ -105,7 +105,7 @@ class DoublyLinkedList {
                                     // (assumes non-empty list)
       	Node current = first;          // start at beginning
 
-      	while(current.objectData != key){    // until match is found,
+      	while(current.mData != key){    // until match is found,
 
          	current = current.next;     // move to next link
 
@@ -133,7 +133,7 @@ class DoublyLinkedList {
 
       	while(current != null) {        // until end of list,
 
-         	current.displayLink();      // display data
+         	current.displayNode();      // display data
          	current = current.next;     // move to next link
         }
 
@@ -146,7 +146,7 @@ class DoublyLinkedList {
       	Node current = last;           // start at end
     	while(current != null) {        // until start of list,
 
-         	current.displayLink();      // display data
+         	current.displayNode();      // display data
      		current = current.previous; // move to previous link
          }
       	System.out.println("");

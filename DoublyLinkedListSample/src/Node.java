@@ -11,6 +11,6 @@ class Node {
     }
 	// -------------------------------------------------------------
    	public void displayNode() {         // display this node
-    	System.out.print(objectData + " ");
+    	System.out.print(mData + " ");
     }
 }

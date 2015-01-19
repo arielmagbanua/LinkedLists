@@ -9,10 +9,6 @@
 			<label>DoublyLinkedListSample</label>
 			<showfiles>false</showfiles>
 			<folderitem>
-				<path>DoublyLinkedListSample\classes</path>
-				<dir>classes</dir>
-			</folderitem>
-			<folderitem>
 				<path>DoublyLinkedListSample\src</path>
 				<dir>src</dir>
 			</folderitem>
@@ -28,10 +24,22 @@
 	</projects>
 	<open_files>
 		<docitem>
-			<path>LinkedListSample\src\LinkedListSample.java</path>
+			<path>DoublyLinkedListSample\src\DoublyLinkedListSample.java</path>
 			<source>true</source>
 			<index>0</index>
 			<active>true</active>
+		</docitem>
+		<docitem>
+			<path>DoublyLinkedListSample\src\DoublyLinkedList.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>LinkedListSample\src\LinkedListSample.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>false</active>
 		</docitem>
 	</open_files>
 </workspace_user>
