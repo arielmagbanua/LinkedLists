@@ -1,10 +1,10 @@
 package DoublyLinkedListSample;
-import DoublyLinkedListSample.Link;
+import DoublyLinkedListSample.Node;
 
 class DoublyLinkedList {
 
-	private Link first;         // ref to first item
-   	private Link last;         	// ref to last item
+	private Node first;         // ref to first item
+   	private Node last;         	// ref to last item
 
 	// -------------------------------------------------------------
    	public DoublyLinkedList() {     // constructor
@@ -18,7 +18,7 @@ class DoublyLinkedList {
 	// -------------------------------------------------------------
    	public void insertFirst(long dd) { // insert at front of list
 
-   		Link newLink = new Link(dd);   // make new link
+   		Node newLink = new Node(dd);   // make new link
 
       	if( isEmpty() )                // if empty list,
          	last = newLink;             // newLink <-- last
@@ -31,7 +31,7 @@ class DoublyLinkedList {
 	// -------------------------------------------------------------
    	public void insertLast(long dd){   // insert at end of list
 
-    	Link newLink = new Link(dd);   // make new link
+    	Node newLink = new Node(dd);   // make new link
 
       	if( isEmpty() )                // if empty list,
          	first = newLink;            // first --> newLink
@@ -45,7 +45,7 @@ class DoublyLinkedList {
 	// -------------------------------------------------------------
    	public Link deleteFirst() {        // delete first link
                                   // (assumes non-empty list)
-      	Link temp = first;
+      	Node temp = first;
 
       	if(first.next == null)         // if only one item
          	last = null;                // null <-- last
@@ -59,7 +59,7 @@ class DoublyLinkedList {
 	// -------------------------------------------------------------
    	public Link deleteLast() {         // delete last link
                                     // (assumes non-empty list)
-    	Link temp = last;
+    	Node temp = last;
 
       	if(first.next == null)         // if only one item
          	first = null;               // first --> null
@@ -73,16 +73,16 @@ class DoublyLinkedList {
                                      // insert dd just after key
    	public boolean insertAfter(long key, long dd) {
                                    // (assumes non-empty list)
-      	Link current = first;          // start at beginning
+      	Node current = first;          // start at beginning
 
-      	while(current.dData != key) {   // until match is found,
+      	while(current.objectData != key) {   // until match is found,
 
          	current = current.next;     // move to next link
          	if(current == null)
             	return false;            // didn't find it
         }
 
-      	Link newLink = new Link(dd);   // make new link
+      	Node newLink = new Node(dd);   // make new link
 
       	if(current==last) {             // if last link,
 
@@ -103,9 +103,9 @@ class DoublyLinkedList {
 	// -------------------------------------------------------------
    	public Link deleteKey(long key){   // delete item w/ given key
                                     // (assumes non-empty list)
-      	Link current = first;          // start at beginning
+      	Node current = first;          // start at beginning
 
-      	while(current.dData != key){    // until match is found,
+      	while(current.objectData != key){    // until match is found,
 
          	current = current.next;     // move to next link
 

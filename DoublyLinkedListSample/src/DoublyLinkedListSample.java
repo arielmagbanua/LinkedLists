@@ -1,11 +1,11 @@
 package DoublyLinkedListSample;
-import DoublyLinkedListSample.Link;
+import DoublyLinkedListSample.Node;
 /**
  * @(#)DoublyLinkedListSample.java
  *
  * DoublyLinkedListSample application
  *
- * @author
+ * @author Ariel Magbanua
  * @version 1.00 2015/1/16
  */
 
