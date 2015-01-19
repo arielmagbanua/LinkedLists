@@ -43,7 +43,7 @@ class DoublyLinkedList {
       	last = newLink;                // newLink <-- last
     }
 	// -------------------------------------------------------------
-   	public Link deleteFirst() {        // delete first link
+   	public Node deleteFirst() {        // delete first link
                                   // (assumes non-empty list)
       	Node temp = first;
 
@@ -57,7 +57,7 @@ class DoublyLinkedList {
 
     }
 	// -------------------------------------------------------------
-   	public Link deleteLast() {         // delete last link
+   	public Node deleteLast() {         // delete last link
                                     // (assumes non-empty list)
     	Node temp = last;
 
@@ -101,7 +101,7 @@ class DoublyLinkedList {
       	return true;                   // found it, did insertion
     }
 	// -------------------------------------------------------------
-   	public Link deleteKey(long key){   // delete item w/ given key
+   	public Node deleteKey(long key){   // delete item w/ given key
                                     // (assumes non-empty list)
       	Node current = first;          // start at beginning
 
@@ -129,7 +129,7 @@ class DoublyLinkedList {
    	public void displayForward() {
 
       	System.out.print("List (first-->last): ");
-      	Link current = first;          // start at beginning
+      	Node current = first;          // start at beginning
 
       	while(current != null) {        // until end of list,
 
@@ -143,7 +143,7 @@ class DoublyLinkedList {
    	public void displayBackward() {
 
       	System.out.print("List (last-->first): ");
-      	Link current = last;           // start at end
+      	Node current = last;           // start at end
     	while(current != null) {        // until start of list,
 
          	current.displayLink();      // display data
