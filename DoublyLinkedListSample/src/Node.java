@@ -1,6 +1,6 @@
 package DoublyLinkedListSample;
 
-class Node {
+public class Node {
 
 	public long mData;             // data item
    	public Node next;              // next node in list

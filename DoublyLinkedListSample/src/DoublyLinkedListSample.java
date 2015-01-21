@@ -1,5 +1,5 @@
 package DoublyLinkedListSample;
-import DoublyLinkedListSample.Node;
+//import DoublyLinkedListSample.Node;
 /**
  * @(#)DoublyLinkedListSample.java
  *
@@ -21,7 +21,7 @@ public class DoublyLinkedListSample {
 
       	theList.insertLast(11);       // insert at rear
       	theList.insertLast(33);
-      	theList.insertLast(55);
+      	//theList.insertLast(55);
 
      	theList.displayForward();     // display list forward
       	theList.displayBackward();    // display list backward
@@ -32,10 +32,9 @@ public class DoublyLinkedListSample {
 
       	theList.displayForward();     // display list forward
 
-      	theList.insertAfter(22, 77);  // insert 77 after 22
-      	theList.insertAfter(33, 88);  // insert 88 after 33
+      	//theList.insertAfter(22, 77);  // insert 77 after 22
+      	//theList.insertAfter(33, 88);  // insert 88 after 33
 
-      	theList.displayForward();     // display list forward
-        // end main()
+      	//theList.displayForward();     // display list forward
     }
 }

@@ -19,7 +19,7 @@
 			<applet_ref/>
 			<debugger_ref/>
 			<param/>
-			<run/>
+			<run>DoublyLinkedListSample.DoublyLinkedListSample</run>
 			<verify>true</verify>
 		</runtime>
 	</runtimes>
@@ -38,7 +38,7 @@
 				<folder>src</folder>
 			</fileitem>
 			<fileitem>
-				<path>src\Link.java</path>
+				<path>src\Node.java</path>
 				<folder>src</folder>
 			</fileitem>
 		</include>

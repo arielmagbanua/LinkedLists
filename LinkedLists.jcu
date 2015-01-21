@@ -24,19 +24,19 @@
 	</projects>
 	<open_files>
 		<docitem>
-			<path>DoublyLinkedListSample\src\DoublyLinkedListSample.java</path>
+			<path>DoublyLinkedListSample\src\Node.java</path>
 			<source>true</source>
 			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>DoublyLinkedListSample\src\DoublyLinkedListSample.java</path>
+			<source>true</source>
+			<index>1</index>
 			<active>true</active>
 		</docitem>
 		<docitem>
 			<path>DoublyLinkedListSample\src\DoublyLinkedList.java</path>
-			<source>true</source>
-			<index>1</index>
-			<active>false</active>
-		</docitem>
-		<docitem>
-			<path>LinkedListSample\src\LinkedListSample.java</path>
 			<source>true</source>
 			<index>2</index>
 			<active>false</active>

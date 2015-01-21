@@ -1,7 +1,7 @@
 package DoublyLinkedListSample;
 import DoublyLinkedListSample.Node;
 
-class DoublyLinkedList {
+public class DoublyLinkedList {
 
 	private Node first;         // ref to first item
    	private Node last;         	// ref to last item
@@ -20,7 +20,7 @@ class DoublyLinkedList {
 
    		Node newLink = new Node(dd);   // make new link
 
-      	if( isEmpty() )                // if empty list,
+      	if(isEmpty())                	// if empty list,
          	last = newLink;             // newLink <-- last
       	else
          	first.previous = newLink;   // newLink <-- old first
@@ -33,7 +33,7 @@ class DoublyLinkedList {
 
     	Node newLink = new Node(dd);   // make new link
 
-      	if( isEmpty() )                // if empty list,
+      	if(isEmpty())                	// if empty list,
          	first = newLink;            // first --> newLink
       	else {
          	last.next = newLink;        // old last --> newLink
@@ -44,7 +44,7 @@ class DoublyLinkedList {
     }
 	// -------------------------------------------------------------
    	public Node deleteFirst() {        // delete first link
-                                  // (assumes non-empty list)
+                                  	//(assumes non-empty list)
       	Node temp = first;
 
       	if(first.next == null)         // if only one item
@@ -121,8 +121,8 @@ class DoublyLinkedList {
       	if(current==last)              // last item?
         	last = current.previous;    // old previous <-- last
       	else                           // not last
-                                     // old previous <-- old next
-        current.next.previous = current.previous;
+            current.next.previous = current.previous; // old previous <-- old next
+
       	return current;                // return value
     }
 	// -------------------------------------------------------------
