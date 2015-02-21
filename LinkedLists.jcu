@@ -2,7 +2,7 @@
 
 <workspace_user>
 	<active_project>
-		<label>DoublyLinkedListSample</label>
+		<label>Exer5</label>
 	</active_project>
 	<projects>
 		<project>
@@ -10,6 +10,14 @@
 			<showfiles>false</showfiles>
 			<folderitem>
 				<path>DoublyLinkedListSample\src</path>
+				<dir>src</dir>
+			</folderitem>
+		</project>
+		<project>
+			<label>Exer5</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Exer5\src</path>
 				<dir>src</dir>
 			</folderitem>
 		</project>
@@ -24,22 +32,28 @@
 	</projects>
 	<open_files>
 		<docitem>
-			<path>DoublyLinkedListSample\src\Node.java</path>
+			<path>Exer5\src\Exer5.java</path>
 			<source>true</source>
 			<index>0</index>
 			<active>false</active>
 		</docitem>
 		<docitem>
-			<path>DoublyLinkedListSample\src\DoublyLinkedListSample.java</path>
+			<path>Exer5\src\MyLinkedList.java</path>
 			<source>true</source>
 			<index>1</index>
-			<active>true</active>
+			<active>false</active>
 		</docitem>
 		<docitem>
-			<path>DoublyLinkedListSample\src\DoublyLinkedList.java</path>
+			<path>Exer5\src\Node.java</path>
 			<source>true</source>
 			<index>2</index>
 			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>LinkedListSample\src\LinkedListSample.java</path>
+			<source>true</source>
+			<index>3</index>
+			<active>true</active>
 		</docitem>
 	</open_files>
 </workspace_user>

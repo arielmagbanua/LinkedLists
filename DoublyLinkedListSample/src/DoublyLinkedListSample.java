@@ -24,17 +24,17 @@ public class DoublyLinkedListSample {
       	//theList.insertLast(55);
 
      	theList.displayForward();     // display list forward
-      	theList.displayBackward();    // display list backward
+      	//theList.displayBackward();    // display list backward
 
-      	theList.deleteFirst();        // delete first item
-      	theList.deleteLast();         // delete last item
+      	//theList.deleteFirst();        // delete first item
+      	//theList.deleteLast();         // delete last item
       	theList.deleteKey(11);        // delete item with key 11
 
       	theList.displayForward();     // display list forward
 
-      	//theList.insertAfter(22, 77);  // insert 77 after 22
-      	//theList.insertAfter(33, 88);  // insert 88 after 33
+      	theList.insertAfter(44, 77);  // insert 77 after 22
+      	theList.insertAfter(33, 88);  // insert 88 after 33
 
-      	//theList.displayForward();     // display list forward
+      	theList.displayForward();     // display list forward
     }
 }
